@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>http://example.com/2014/09/10/usage.html</loc>
+      
+        <lastmod>2014-09-10T22:45:35+02:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+  
+    
+  
+    
+      <url>
+        <loc>http://example.com/about.html</loc>
+        <lastmod>2014-09-07T13:01:30+02:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+       </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+</urlset>
