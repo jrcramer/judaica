@@ -1,0 +1,20 @@
+---
+layout: lists
+title: List of tags
+#permalink: /tags/
+---
+{% for post in site.posts %}
+  {% for tag in post.tags %}
+    {% capture sTags %}{{ sTags }}|{{ tag }}{% endcapture %}
+  {% endfor %}
+{% endfor %}
+
+{% assign aTags = sTags | split:'|' | uniq %}
+
+<!-- {{sTags}} -->
+
+<ul>
+{% for tag in aTags %}
+  <li><a class="post-meta" href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a> 
+{% endfor %}
+</ul>
