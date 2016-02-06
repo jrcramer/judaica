@@ -1,37 +1,16 @@
-##The website title
-name: Judaica
-##Markdown processor
+# Site settings
+title: Judaica
+#email: your-email@domain.com
+#description: > # this means to ignore newlines until "baseurl:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jaapcramer
+github_username:  jrcramer
+
+# Build settings
 markdown: kramdown
-##syntax highlighter. change it to pygments
 highlighter: rouge
-
-##define base_url for valid usage in sitemap.xml and robots.txt
-base_url: http://jrcramer.github.io/judaica/
-sass:
-  sass_dir: _sass
-  style: :compressed
-paginate: 5
-paginate_path: "page:num"
-##The website description (to be used in meta tags)
-description: Blogjes over brokjes tekst
-##Some frequently used keywords on your website
-keywords: judaica, christendom, kerkvaders, patristiek, exegese
-
-##define this for disqus comment support
-#disqus: forumname
-
-##set this to enable google analytics
-#ga_id: analyticsID
-#ga_domain: analyticsDomain
-
-##Some commonly used links
-links:
-  facebook: jaapcramer
-  twitter: jaapcramer
-  email: j@c.com
-  github: jrcramer
-
-##put desired image in img/ directory and set the value accordingly. If not defined, a placeholder image will be used.
-about_image: placeholder.jpg
-##comment this if you want full width posts with no sidebar
-sidebar: on
+markdown_ext: "markdown,mkdown,mkdn,mkd,md,mmd"

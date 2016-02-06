@@ -1,0 +1,6 @@
+{% if post.tags != empty %}
+<img src="{{ site.baseurl }}/imgs/tag.png" />
+  {% for tag in post.tags %}
+	<a class="post-meta" href="/tag/{{ tag }}">{{ tag }}</a> 
+  {% endfor %}
+{% endif %}
