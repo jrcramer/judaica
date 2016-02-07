@@ -1,3 +1,4 @@
+=begin
 module Jekyll
   class TagIndex < Page
     def initialize(site, base, dir, tag)
@@ -32,3 +33,4 @@ module Jekyll
     end
   end
 end
+=end

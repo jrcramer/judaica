@@ -1,7 +1,7 @@
 ---
 layout: lists
-title: List of tags
-#permalink: /tags/
+title: Tags
+permalink: /tags/
 ---
 {% for post in site.posts %}
   {% for tag in post.tags %}
@@ -9,12 +9,10 @@ title: List of tags
   {% endfor %}
 {% endfor %}
 
-{% assign aTags = sTags | split:'|' | uniq %}
-
-<!-- {{sTags}} -->
+{% assign aTags = sTags | remove_first: '|' | split:'|' | uniq | sort %}
 
 <ul>
 {% for tag in aTags %}
-  <li><a class="post-meta" href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a> 
+  <li><a class="post-meta" href="{{ site.baseurl }}/tag?t={{ tag }}">{{ tag }}</a> 
 {% endfor %}
 </ul>

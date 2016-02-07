@@ -1,30 +1,30 @@
 ---
 layout: post
-title:  "Maleachi 1 als locus voor avondmaal"
+title:  Maleachi 1 - Avondmaal
 author: Jaap Cramer
-tags:   avondmaal Maleachi Didache DialoogTrypho
+tags:   Avondmaal Maleachi Didache DialoogTrypho
 ---
 Wie Maleachi 1 leest zal niet snel aan het Avondmaal denken. Toch is in de vroege kerk vaak een verband gelegd tussen dit hoofdstuk en de maaltijd van de Heer.  
-
 
 Maleachi heeft over de *tafel van de Heer* (שֻׁלְחַן יְהוָה, vs 7; en שֻׁלְחַן אֲדֹנָי, vs 12) waar de priesters verwerpelijk voedsel accepteren.
 Maleachi beschrijft dat op een beeldende manier:
 
-> Als jullie met een blind offerdier aankomen, zeggen jullie: ‘Wat geeft dat nu?’ En ook als jullie met een kreupel of ziek dier aankomen, zeggen jullie: ‘Dat geeft toch niets?’ Bied de gouverneur zo’n dier maar eens aan en zie of hij er tevreden mee is en jullie goedgezind zal blijven – zegt de HEER van de hemelse machten.
+> Als jullie met een blind offerdier aankomen, zeggen jullie: ‘Wat geeft dat nu?’ En ook als jullie met een kreupel of ziek dier aankomen, zeggen jullie: ‘Dat geeft toch niets?’  
+> Bied de gouverneur zo’n dier maar eens aan en zie of hij er tevreden mee is en jullie goedgezind zal blijven – zegt de HEER van de hemelse machten.
 > <cite>Maleachi 1:8</cite>
 
 
 ### 1 Korinte
-In de eerste brief aan de gemeente in Korinte schrijft Paulus hoe het er met het avondmaal aan toe moet gaan. In *1 Kor 10:21* noemt Paulus de tafel van de Heer (τραπέζης κυρίου), dat in de LXX alleen voorkomt in Maleachi 1:7 en 12.  
+In de eerste brief aan de gemeente in Korinte schrijft Paulus hoe het er met het avondmaal aan toe moet gaan. In 1 Kor 10:21 noemt Paulus de *tafel van de Heer* (τραπέζης κυρίου), dat in de LXX alleen voorkomt in Maleachi 1:7 en 12.  
 Paulus legt geen direct verband met Maleachi, toch lijken de woorden niet voor niets gekozen.
 Het sprekende taalgebruik van Paulus (*"Of willen we Heer tergen? Zijn we soms sterker dan hij?"* (vers 22)) doet een beetje denken aan de toon van Maleachi
 
 ### Didache (eind 1e eeuw)
-De Didache is een van de oudste vroeg-christelijke onderwijs-teksten. Een introductie in het christelijk geloof wordt opgevolgd door een aantal praktische organisatorische hoofdstukken. Een van die hoofstukken gaat over het avondmaal. In *Didache 14:3* vinden we een verwijzing naar Mal 1:11:
+De Didache is een van de oudste vroeg-christelijke onderwijs-teksten. Een introductie in het christelijk geloof wordt opgevolgd door een aantal praktische organisatorische hoofdstukken. Een van die hoofstukken gaat over het avondmaal. In _Didache 14:3_ vinden we een verwijzing naar Mal 1:11:
 
 > Overal brengt men mij reukoffers en reine offergaven. Mijn naam staat bij alle volken in aanzien – zegt de HEER van de hemelse machten –
 
-Het belangrijkste punt in de Didache is dat het avondmaal een rein offer moet zijn. Geen gedoe dus, als bij Maleachi; en als er met iemand onenigheid is, moet je dat van te voren bijleggen. Anders wordt het offer ontheiligd.
+Het belangrijkste punt in de Didache is dat het avondmaal een rein offer moet zijn. Als er met iemand in de gemeente onenigheid is, moet je dat van te voren bijleggen. Anders wordt het offer ontheiligd.
 
 Als contrast met het volk en de priesters die het niet zo nauw nemen, spreekt Maleachi over de volken, die overal God wel serieus nemen. Die wel weten dat hij een groot Koning is.
 
@@ -34,7 +34,7 @@ Als contrast met het volk en de priesters die het niet zo nauw nemen, spreekt Ma
 
 ### Justinus (2e eeuw)
 Het meest directe gebruik van Maleachi 1 in verband met het avondmaal vinden we bij de schrijver Justinus.  
-Voor hem is het vooral het universele van Maleachi dat verwijst naar de wereldwijde kerk. Van waar de zon opgaat tot waar ze ondergaat staat mijn naam bij alle volken in aanzien 
+Voor hem is het vooral het universele van Maleachi dat verwijst naar de wereldwijde kerk. *Van waar de zon opgaat tot waar ze ondergaat staat mijn naam bij alle volken in aanzien.*  
 Justin D41:2 citeert Mal, en :3 legt uit dat Maleachi vewijst naar het avondmaal voor heidenen.
  - Interessant is dat het aanbieden van een meeloffer ter genezing van lepra aan type van eucharistie wordt genoemd (Lv 14:10, check Skarsaune 179f, 304f)
 

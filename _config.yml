@@ -11,3 +11,5 @@ github_username:  jrcramer
 markdown: kramdown
 highlighter: rouge
 markdown_ext: "markdown,mkdown,mkdn,mkd,md,mmd"
+
+permalink: pretty
