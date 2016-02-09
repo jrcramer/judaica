@@ -9,7 +9,7 @@ layout: default
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <span class="post-meta right">{% include post_tags.html %}</span>
+        <span class="post-meta right">   {% include post_tags.html %}   </span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

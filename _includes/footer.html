@@ -4,9 +4,12 @@
 
       <div class="footer-col footer-col-1">
         <ul class="social-media-list">{% for socialmedia in site.social %}
-            <a href="https://{{ socialmedia.url }}/{{ socialmedia.user }}"><span class="icon icon--{{ socialmedia.platform }}">
-              <img src="{{ site.baseurl }}/img/36/{{ socialmedia.platform }}-icon.png" /></span></a>
-            {% endfor %}
+            {% if socialmedia.url == "" %}{% assign url = socialmedia.platform | append: ".com" %}{% else %}{% assign url = socialmedia.url %}{% endif %}
+            <a href="https://{{ url }}/{{ socialmedia.user }}">
+              <span class="icon icon--{{ socialmedia.platform }}">
+                <img src="{{ site.baseurl }}/img/36/{{ socialmedia.platform }}-icon.png" />
+              </span>
+            </a>{% endfor %}
         </ul>
       </div>
 
