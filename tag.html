@@ -3,39 +3,17 @@ layout: tag_page
 title: Tag
 permalink: /tag/
 ---
-<script>
-function getUrlVars() {
-var vars = {};
-var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-vars[key] = value;
-});
-return vars;
-}
-
-</script>
-
 <h1 class="page-heading">Posts met tag: <span id="TagFromJS"></span></h1>
-<!-- FROM TAG INDEX -->
 
 <script>
 var lblT = document.getElementById("TagFromJS");
-lblT.innerHTML = getUrlVars()["t"];
+var FilterTag = getUrlVars()["t"];
+lblT.innerHTML = FilterTag;
+
+var TagPosts = [
+  {% for post in site.posts %}{title:'{{ post.title }}', date:'{{ post.date | date: "%b %-d, %Y" }}', url:'{{ post.url | prepend: site.baseurl }}', tags:['{{ post.tags | join: "','" }}']}{% unless forloop.last %}, 
+  {% endunless %}{% endfor %}
+];
+
+writeFilteredTagList(TagPosts, FilterTag)
 </script>
-
-<ul class="post-list">
-  {% for post in site.posts %}
-    {% for tag in post.tags %}
-      {% if tag == page.tag %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <span class="post-meta right">{% include post_tags.html %}</span>
-
-        <h2>
-          <a class="post-link" href='{{ post.url | prepend: site.baseurl }}'>{{ post.title }}</a>
-          <p class="summary">{{post.summary}}</p>
-        </h2>
-      </li>
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-</ul>

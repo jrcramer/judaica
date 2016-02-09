@@ -97,7 +97,8 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $grey-color;
+    background-color: $grey-color;
     padding: $spacing-unit 0;
 }
 
@@ -138,6 +139,10 @@
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+.footer-right {
+    float: right;
 }
 
 @include media-query($on-laptop) {

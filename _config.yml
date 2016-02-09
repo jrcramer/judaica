@@ -4,8 +4,7 @@ title: Judaica
 description: blog
 baseurl: "/judaica" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jaapcramer
-github_username:  jrcramer
+
 
 # Build settings
 markdown: kramdown
@@ -13,3 +12,20 @@ highlighter: rouge
 markdown_ext: "markdown,mkdown,mkdn,mkd,md,mmd"
 
 permalink: pretty
+
+social:
+- platform: "twitter"
+  url: "twitter.com"
+  user: "jaapcramer"
+- platform: "facebook"
+  url: "facebook.com"
+  user: "jaapcramer"
+- platform: "github"
+  url: "github.com"
+  user: "jrcramer"
+- platform: "youtube"
+  url: "youtube.com"
+  user: "jaapcramer"
+- platform: "instagram"
+  url: "instagram.com"
+  user: "jrcramer84"
