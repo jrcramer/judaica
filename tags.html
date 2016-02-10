@@ -11,8 +11,8 @@ permalink: /tags/
 
 {% assign aTags = sTags | remove_first: '|' | split:'|' | uniq | sort %}
 
-<ul>
+<ul class="tags-list">
 {% for tag in aTags %}
-  <li><a class="post-meta" href="{{ site.baseurl }}/tag?t={{ tag }}">{{ tag }}</a> 
+  <li><a class="post-meta" href="{{ site.baseurl }}/tag/?t={{ tag }}">{{ tag }}</a> 
 {% endfor %}
 </ul>
