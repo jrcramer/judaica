@@ -15,4 +15,11 @@ Ik las dit voor het eerst bij kerkvader Ignatius (hieronder meer) maar kwam het 
 kerkvaders
 Ign.Ef 4:1 Thus it is proper for you to run together in harmony with the mind of the bishop, as you are in fact doing. (ὅπερ καὶ ποιεῖτε)
 
+Ign.Ef 8:1 Therefore let no one deceive you, just as you are not now deceived (Μὴ οὖν τις ὑμᾶς ἐξαπατάτω, ὥσπερ οὐδὲ ἐξαπατάσθε)
+
+
 Ign. Rom 2:1 For I do not want you to please people, but to please God, as you in fact are doing. (ὥσπερ καὶ ἀρέσκετε)
+
+Tralles 2:2 ὥσπερ ποιεῖτε
+
+Hermas 9:9 But persevere in your sincerity, as you are now doing (ἀλλ᾿ ὡς ἐμμένεις τῇ ἁπλότητί σου, μεῖνον)

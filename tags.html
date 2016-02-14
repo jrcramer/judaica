@@ -13,6 +13,7 @@ permalink: /tags/
 
 <ul class="tags-list">
 {% for tag in aTags %}
-  <li><a class="post-meta" href="{{ site.baseurl }}/tag/?t={{ tag }}">{{ tag }}</a> 
+  <li><a class="post-meta" href="{{ site.baseurl }}/tag/?t={{ tag }}">{{ tag }}</a>
+  <!--{% assign tagDB = site.data.tags[tag] %}{% if tagDB %}<span class="infobox">{{tagDB.info}}</span>{% endif %}--></li>
 {% endfor %}
 </ul>

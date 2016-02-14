@@ -253,3 +253,28 @@
         }
     }
 }
+
+.personalia-name {
+    font-size: $base-font-size;
+    font-weight: $head-font-weight;
+    color: $brand-color;
+    font-family: $base-font-family;
+
+}
+
+.personalia-list {
+    font-size: $small-font-size;
+
+    > i {
+        color: $grey-color;
+    }
+}
+
+.personalia-sources {
+    font-size: $tiny-font-size;
+    > .sourcequote {
+        quotes: "“" "”" "‘" "’";
+        font-style: italic;
+    }
+    .sourcequote:before {content: open-quote;}
+    .sourcequote:after {content: close-quote;}}

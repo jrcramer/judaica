@@ -1,0 +1,22 @@
+---
+layout: tag_page
+title: Personalia
+permalink: /personalia/
+---
+
+<div class="personalia-list">
+{% for person in site.data.p %}
+  <a name="{{person.n}}" class="personalia-name">{{ person.n }}</a><br>
+  {% for t in person.t %}<span class = "post-meta">{{t}}</span><br>{% endfor %}
+  {% if person.ll != nil %}Leerling van {{ person.ll }}<br>{% endif %}
+  {% if person.i != nil %}{{ person.i }}<br>{% endif %}
+  {% if person.s != nil %}<span class="personalia-sources"><b>BRONNEN:</b><br>
+  {% for s in person.s %}
+    {% assign sArray = s | split: '|' %}
+    {% if sArray.size == 2 %}<span class="sourcequote">{{ sArray[1] }}</span> - ({{ sArray[0] }})<br>
+    {% else %}{{s}}<br>{% endif %}
+  {% endfor %}</span>
+  {% endif %}
+  <br>
+{% endfor %}
+</div>
